@@ -1,0 +1,15 @@
+[package]
+name = "qsim-rs"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "State-vector quantum circuit simulator with QFT and Grover search, no dependencies"
+authors = ["Ankit Pawar"]
+
+[lib]
+name = "qsim"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
